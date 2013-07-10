@@ -3,7 +3,7 @@
   "description": "Installs/Configures python-software-properties package",
   "long_description": "# python-software-properties cookbook\n\nInstalls python software properties\n\n# Requirements\n\nnone\n\n# Usage\n\nadd the recipe to your node run list\n\n```ruby\nrun_list = [\n  \"recipe[python-software-properties::default]\"\n]\n```\n\n# Attributes\n\n# Recipes\n\n* default install\n\n# Author\n\nAuthor:: Noah Isaacson\n",
   "maintainer": "Noah Isaacson",
-  "maintainer_email": "",
+  "maintainer_email": "none@example.com",
   "license": "All rights reserved",
   "platforms": {
   },
@@ -24,6 +24,7 @@
   "groupings": {
   },
   "recipes": {
+    "python-software-properties::default": "Install the python-software-properties package"
   },
   "version": "1.1.3"
 }
